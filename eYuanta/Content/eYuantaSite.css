@@ -1,0 +1,65 @@
+﻿#YFSTool {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+
+.btnYFSTool {
+    vertical-align: initial;
+    height: 22px;
+    transition: 150ms;
+    padding: 0;
+    margin-left: 0.4rem;
+    margin-right: 0px;
+    opacity: .3;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+    .btnYFSTool:first-child {
+        margin-left: 0;
+    }
+
+    .btnYFSTool.active{
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        background: none;
+        outline: none;
+    }
+
+    .btnYFSTool:hover {
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        background: none;
+        outline: none;
+    }
+
+    .btnYFSTool:focus{
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        background: none;
+        outline: none;
+    }
+
+    .btnYFSTool:focus-visible {
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+        background: none;
+        outline: none;
+    }
+
+    .btnYFSTool strong {
+        left: 0;
+    }
+
+    .btnYFSTool img {
+        left: 0;
+        vertical-align: bottom;
+    }

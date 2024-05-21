@@ -1,0 +1,3812 @@
+@charset "UTF-8";
+.tag_star {
+    display: inline-block;
+    width: .6em;
+    height: 1em;
+    margin: 0 2px;
+    vertical-align: text-top;
+    background: url(../images/icon_star_01.png) center no-repeat;
+    background-size: .6em
+}
+
+.btn_top {
+    display: none
+}
+
+.event_area {
+    padding: 0;
+    position: relative;
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+.block_section.type2 {
+    background-color: #e0c281
+}
+
+.block_section.type2.bgW {
+    background: none
+}
+
+.block_section.type2 .slick-slider {
+    margin: 0
+}
+
+.block_section.type2 .slick-slide {
+    padding: 10px 20px
+}
+
+.block_section.type2 .event_slick {
+    max-width: 1020px;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+.block_section.type3 {
+    background-color: #e5eaf0;
+    min-height: 280px
+}
+
+.block_section.type3 .event_area {
+    overflow: auto;
+    max-width: 1000px;
+    /*padding: 0 330px 0 10px*/
+}
+
+.block_section.type3 .app_list h4 {
+    font-size: 21px;
+    color: #086da4;
+    position: relative;
+    margin-bottom: 10px
+}
+
+.app_list .app_box li {
+    float: left;
+    width: calc(50% - 5px);
+    height: 300px;
+    margin: 0 10px 0 0
+}
+
+.app_list .app_box li:nth-last-child(1) {
+    margin-right: 0
+}
+
+.app_list .app_box li div:nth-last-child(1) {
+    margin-bottom: 0
+}
+
+.app_list .app_box h5 {
+    color: #666;
+    font-weight: normal;
+    line-height: 30px
+}
+
+.app_list .app_box .info_box {
+    position: relative;
+    height: calc(50% - 22px);
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 100px;
+    box-sizing: border-box;
+    background: #fff
+}
+
+.app_box .info_box .pic {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+
+.app_box .info_box .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.app_box .info_box p {
+    line-height: 18px;
+    font-size: 14px
+}
+
+.app_link {
+    position: relative;
+    height: 100%;
+    max-height: 280px
+}
+
+.app_link img {
+    width: 100%
+}
+
+.app_link a.more {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    border-color: #fff
+}
+
+.app_link a.more:hover {
+    background-color: #00b7ee;
+    border-color: #00b7ee
+}
+
+.app_link_item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff
+}
+
+.app_link_item h4 {
+    margin-bottom: 10px;
+    font-size: 26px
+}
+
+.app_link_item p {
+    min-height: 90px;
+    font-size: 15px;
+    line-height: 1.2em
+}
+
+.block_section.type3 .event_area .event_ad {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 10px
+}
+
+.event_ad img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.IndexPrice_box {
+    margin: 8px 0 0 0
+}
+
+.box_L .IndexPrice_box > p {
+    padding: 10px 0;
+    font-size: 14px
+}
+
+.IndexPrice_list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px 10px;
+    line-height: 30px
+}
+
+.IndexPrice_list li span {
+    flex: 1 1 30%
+}
+
+.IndexPrice_list li span:first-of-type {
+    -webkit-box-flex: 2;
+    -ms-flex: 2 1 40%;
+    flex: 2 1 40%
+}
+
+.IndexPrice_list li:nth-child(odd) {
+    background: rgba(86, 104, 124, .4)
+}
+
+.IndexPrice_list.staticlist {
+    border-bottom: solid 1px #fff
+}
+
+.scrolllist {
+    overflow: hidden
+}
+
+.event_area.type2 .block_event {
+    width: 790px
+}
+
+.event_area.type2 .slick-list {
+    margin: 0 20px
+}
+
+.event_area.type2 .slick-slide {
+    margin: 0 10px
+}
+
+.event_area.type2 .block_event h4 {
+    padding: 0 30px
+}
+
+.event_area.type2 .block_event a.more {
+    right: 30px
+}
+
+.event_area.type2 .block_news .article_list li {
+    margin: 0 0 23px
+}
+
+.event_area.type2 .block_news .article_list li:last-child {
+    margin: 0
+}
+
+.block_event h4 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #727272;
+    font-weight: normal
+}
+
+.block_news h4 {
+    font-size: 20px;
+    padding: 0 0 11px;
+    margin: 0 0 25px;
+    color: #727272;
+    font-weight: normal;
+    border-bottom: 1px solid #efefef
+}
+
+.block_event h4 a.block_more {
+    float: right
+}
+
+.block_event .slick-prev, .block_event .slick-next {
+    font-size: 0;
+    position: absolute;
+    z-index: 8;
+    width: 20px;
+    height: 80px;
+    border: none;
+    top: 63px
+}
+
+.block_event .slick-prev {
+    left: 0;
+    background: rgba(255, 255, 255, .5) url("../images/img_event_prev.png") center center no-repeat;
+    cursor: pointer
+}
+
+.block_event .slick-next {
+    right: 0;
+    background: rgba(255, 255, 255, .5) url("../images/img_event_next.png") center center no-repeat;
+    cursor: pointer
+}
+
+.block_event figure {
+    padding: 0;
+    margin: 0
+}
+
+.block_event figure figcaption {
+    font-weight: bold;
+    padding: 10px 0 0 0;
+    color: #5e5e5e
+}
+
+.block_event figure figcaption a {
+    color: #5e5e5e
+}
+
+.block_event figure figcaption .block_event_date {
+    display: block;
+    color: #a1bac7
+}
+
+.block_event .flex-control-nav {
+    display: none
+}
+
+.block_event .flex-direction-nav .flex-prev {
+    left: 0;
+    width: 20px;
+    height: 80px;
+    background: transparent url("../images/img_event_prev.png") center center no-repeat
+}
+
+.block_event .flex-direction-nav .flex-prev::before {
+    content: ''
+}
+
+.block_event .flex-direction-nav .flex-next {
+    right: 0;
+    width: 20px;
+    height: 80px;
+    background: transparent url("../images/img_event_next.png") center center no-repeat
+}
+
+.block_event .flex-direction-nav .flex-next::before {
+    content: ''
+}
+
+a.more {
+    border: 1px solid #dfaf4a;
+    border-radius: 2px;
+    color: #dfaf4a;
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    transition: .2s
+}
+
+a.more:hover {
+    color: #fff;
+    background-color: #dfaf4a
+}
+
+.block_news {
+    position: relative
+}
+
+.block_news .item_list {
+    border-bottom: 1px solid #efefef;
+    display: block;
+    margin: 0 0 25px
+}
+
+.block_news .item_list li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0 10px 10px;
+    border-bottom: 3px solid transform;
+    box-sizing: border-box;
+    transition: all 0s
+}
+
+.block_news .item_list li a {
+    font-size: 18px;
+    text-align: center;
+    color: #09213a;
+    display: block
+}
+
+.block_news .item_list li:hover, .block_news .item_list li.on {
+    border-bottom: 3px solid #09213a
+}
+
+.block_news .article_list li {
+    margin: 0 0 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.block_news .article_list li a {
+    color: #727272;
+    background: transparent url("../images/img_dot_blue.png") 5px 6px no-repeat;
+    padding: 0 0 0 25px
+}
+
+.block_news .article_list li a:hover {
+    color: #002e83
+}
+
+.block_news .article_list li:last-child {
+    margin: 0
+}
+
+.shortcut_webbank {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 10%;
+    margin-top: -150px;
+    width: 260px;
+    height: 300px;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: rgba(14, 36, 61, .9);
+    text-align: center;
+    z-index: 100
+}
+
+.shortcut_webbank .abgne_tab {
+    clear: left;
+    color: #fff
+}
+
+.shortcut_webbank .tabs {
+    width: 100%;
+    height: 40px
+}
+
+.shortcut_webbank .tabs li {
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    overflow: hidden;
+    position: relative
+}
+
+.shortcut_webbank .tabs li a {
+    display: block;
+    background-color: #315181;
+    color: #98a4ba
+}
+
+.shortcut_webbank .tabs li a:hover {
+    background: none
+}
+
+.shortcut_webbank .tabs li.active a {
+    background: none;
+    color: #fff
+}
+
+.shortcut_webbank .tabs li.active a:hover {
+    background: none;
+    color: #fff
+}
+
+.shortcut_webbank .tab_container {
+    clear: left;
+    width: 100%
+}
+
+.shortcut_webbank .tab_container .tab_content {
+    padding: 0;
+    color: #fff
+}
+
+.tab_content ul.applist {
+    padding: 10px 20px
+}
+
+.tab_content ul.applist li {
+    display: block;
+    padding: 20px 0;
+    text-align: left;
+    position: relative
+}
+
+.tab_content ul.applist li:first-child {
+    border-bottom: 1px solid #4e5b68
+}
+
+.tab_content ul.applist a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.tab_content ul.applist h4 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px
+}
+
+.tab_content ul.applist .pic_box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 0 10px 0 0
+}
+
+.tab_content ul.applist .pic_box img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.tab_content .tblfunction {
+    background-color: #273647;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0
+}
+
+.tab_content .tblfunction .tb_linex {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    padding-right: 6px
+}
+
+.tab_content .tblfunction .wd1 {
+    font-family: "Microsoft JhengHei UI";
+    font-size: 16px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    text-decoration: none;
+    padding-left: 6px
+}
+
+.tab_content .tblfunction img {
+    margin-top: 10px
+}
+
+.tab_content .tblfunction a {
+    display: inline-block
+}
+
+.tab_content .tblfunction a:link {
+    color: #fff;
+    text-decoration: none
+}
+
+.tab_content .tblfunction a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.tab_content .tblfunction a:hover {
+    color: #0ff;
+    text-decoration: none
+}
+
+.tab_content .tblfunction a:active {
+    color: #fff;
+    text-decoration: none
+}
+
+.tab_content .f_nav li {
+    display: inline-block;
+    border-left: 1px solid #f3f3f3;
+    line-height: 13px;
+    margin: 0 -2px
+}
+
+.tab_content .f_nav li:first-child {
+    border-left: none
+}
+
+.tab_content .f_nav li a {
+    padding: 0 10px;
+    font-size: 13px;
+    color: #f3f3f3
+}
+
+.tab_content .f_nav li a:hover {
+    color: #dfaf4a
+}
+
+.topic_finance_section {
+    background: transparent url("../images/bg_stock.jpg") center top no-repeat;
+    background-size: cover;
+    padding: 60px 0
+}
+
+.topic_finance_title {
+    position: relative;
+    padding: 0 110px 0 150px
+}
+
+.topic_finance_title h3 {
+    display: inline-block;
+    vertical-align: middle;
+    color: #dfaf4a;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.topic_finance_title.ind h3 {
+    left: 0
+}
+
+.topic_finance_title .topic_finance_list_all {
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    border-bottom: solid 1px #dfaf4a;
+    margin: 0 20px 0 0;
+    width: 100%
+}
+
+.topic_finance_list_all .topic_finance_list {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0
+}
+
+.topic_finance_list .topic_finance_item {
+    display: inline-block;
+    line-height: 36px;
+    margin: 0 20px 0 0
+}
+
+.topic_finance_item a {
+    display: block;
+    color: #fff;
+    border-bottom: solid 3px rgba(0, 0, 0, 0)
+}
+
+.topic_finance_item a:hover, .topic_finance_item a.on {
+    border-bottom: solid 3px #dfaf4a
+}
+
+.content-container {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden
+}
+
+.img-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: blur(20px);
+    -o-filter: blur(20px);
+    filter: blur(20px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    background-size: cover
+}
+
+.blur {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.productIntro {
+    position: relative;
+    height: 350px;
+    background-color: #fff
+}
+
+.saveExchange .img-container {
+    background-image: url(../img/saveExchange_1440x350.jpg)
+}
+
+.loan .img-container {
+    background-image: url(../img/loan_1440x350.jpg)
+}
+
+.invest .img-container {
+    background-image: url(../img/invest_1440x350.jpg)
+}
+
+.insurance .img-container {
+    background-image: url(../img/insurance_1440x350.jpg)
+}
+
+.wealth .img-container {
+    background-image: url(../img/wealth_1440x350.jpg)
+}
+
+.corp .img-container {
+    background-image: url(../img/corp_1440x350.jpg)
+}
+
+.digi .img-container {
+    background-image: url(../img/digi_1440x350.jpg)
+}
+
+.productIntro h3 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: calc(100% - 80px);
+    text-align: center;
+    font-size: 30px;
+    color: #dfaf4a;
+    box-sizing: border-box
+}
+
+.productIntro h3 span:nth-child(1) {
+    width: calc(50% - 105px);
+    display: inline-block;
+    background: url(../images/h3_bg.png) center repeat-x
+}
+
+.productIntro h3 span:nth-child(2) {
+    width: 210px;
+    display: inline-block
+}
+
+.productIntro h3 span:nth-child(3) {
+    width: calc(50% - 105px);
+    display: inline-block;
+    background: url(../images/h3_bg.png) center repeat-x
+}
+
+.productIntro .liInfo {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 0 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.productIntro .liInfo ul {
+    width: 100%;
+    margin: 20px auto 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch
+}
+
+.productIntro .liInfo ul li {
+    width: 180px;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.productIntro .liInfo ul li .pic {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 99em
+}
+
+.saveExchange .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/saveEx_01.jpg) no-repeat
+}
+
+.saveExchange .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/saveEx_02.jpg) no-repeat
+}
+
+.saveExchange .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/saveEx_03.jpg) no-repeat
+}
+
+.saveExchange .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/saveEx_04.jpg) no-repeat
+}
+
+.loan .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/loan_01.jpg) no-repeat
+}
+
+.loan .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/loan_02.jpg) no-repeat
+}
+
+.loan .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/loan_03.jpg) no-repeat
+}
+
+.loan .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/loan_04.jpg) no-repeat
+}
+
+.digi .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/digi_01.jpg) no-repeat
+}
+
+.digi .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/digi_02.jpg) no-repeat
+}
+
+.digi .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/digi_03.jpg) no-repeat
+}
+
+.digi .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/digi_04.jpg) no-repeat
+}
+
+.productIntro .liInfo ul li .pic .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    display: block;
+    border-radius: 99em;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    text-align: center;
+    line-height: 180px;
+    color: #dfaf4a
+}
+
+.productIntro .liInfo ul li:hover > .pic .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    display: block;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 1
+}
+
+.productIntro .liInfo ul li p {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0
+}
+
+.productIntro.invest .liInfo ul li {
+    width: 220px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.productIntro.invest .liInfo ul li .pic {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    display: block;
+    border-radius: 0;
+    overflow: hidden;
+    border-bottom: 5px solid #dfaf4a
+}
+
+.productIntro.invest .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/invest_01.jpg) no-repeat
+}
+
+.productIntro.invest .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/invest_02.jpg) no-repeat
+}
+
+.productIntro.invest .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/invest_03.jpg) no-repeat
+}
+
+.productIntro.invest .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/invest_04.jpg) no-repeat
+}
+
+.productIntro.invest .liInfo ul li p {
+    color: #dfaf4a
+}
+
+.productIntro.invest .liInfo ul li a {
+    color: #fff;
+    width: 218px;
+    height: 42px;
+    display: block;
+    border: 1px solid #fff;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px
+}
+
+.productIntro.invest .liInfo ul li a:hover {
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.productIntro.insurance .liInfo ul li {
+    width: 220px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.productIntro.insurance .liInfo ul li .pic {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    display: block;
+    border-radius: 0;
+    overflow: hidden;
+    border-bottom: 5px solid #dfaf4a
+}
+
+.productIntro.insurance .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/insurance_01.jpg) no-repeat
+}
+
+.productIntro.insurance .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/insurance_02.jpg) no-repeat
+}
+
+.productIntro.insurance .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/insurance_03.jpg) no-repeat
+}
+
+.productIntro.insurance .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/insurance_04.jpg) no-repeat
+}
+
+.productIntro.insurance .liInfo ul li p {
+    color: #dfaf4a
+}
+
+.productIntro.insurance .liInfo ul li a {
+    color: #fff;
+    width: 218px;
+    height: 42px;
+    display: block;
+    border: 1px solid #fff;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px
+}
+
+.productIntro.insurance .liInfo ul li a:hover {
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.productIntro.wealth .liInfo ul {
+    width: 951px;
+    margin: 20px auto 0;
+    text-align: center
+}
+
+.productIntro.wealth .liInfo ul li {
+    width: 450px;
+    display: inline-block;
+    cursor: pointer;
+    clear: both
+}
+
+.productIntro.wealth .liInfo ul li:nth-child(1) {
+    padding: 0 25px 0 0;
+    border-right: 1px solid rgba(225, 175, 75, .4)
+}
+
+.productIntro.wealth .liInfo ul li:nth-child(2) {
+    padding: 0 0 0 25px
+}
+
+.productIntro.wealth .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/wealth_01.jpg) no-repeat;
+    background-size: 100% auto
+}
+
+.productIntro.wealth .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/wealth_02.jpg) no-repeat;
+    background-size: 100% auto
+}
+
+.productIntro.wealth .liInfo ul li .pic {
+    float: left;
+    width: 240px;
+    height: 240px;
+    display: block;
+    border-radius: 0
+}
+
+.productIntro.wealth .liInfo ul li .info {
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 225px;
+    display: block;
+    padding: 15px 20px 0;
+    background: #fff url(../images/wealthProduct_bg.png) repeat-y
+}
+
+.productIntro.wealth .liInfo ul li .info h4 {
+    text-align: left;
+    font-size: 20px;
+    color: #222
+}
+
+.productIntro.wealth .liInfo ul li .info p {
+    text-align: left;
+    font-size: 16px;
+    color: #555
+}
+
+.productIntro.wealth .liInfo ul li a {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    color: #dfaf4a;
+    width: 170px;
+    height: 42px;
+    display: block;
+    border: 1px solid #dfaf4a;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px
+}
+
+.productIntro.wealth .liInfo ul li a:hover {
+    color: #fff;
+    background-color: rgba(225, 175, 75, 1)
+}
+
+.productIntro.corp .liInfo ul li {
+    width: 220px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.productIntro.corp .liInfo ul li .pic {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    display: block;
+    border-radius: 0;
+    overflow: hidden;
+    border-bottom: 5px solid #dfaf4a
+}
+
+.productIntro.corp .liInfo ul li:nth-child(1) .pic {
+    background: url(../images/corp_01.jpg) no-repeat
+}
+
+.productIntro.corp .liInfo ul li:nth-child(2) .pic {
+    background: url(../images/corp_02.jpg) no-repeat
+}
+
+.productIntro.corp .liInfo ul li:nth-child(3) .pic {
+    background: url(../images/corp_03.jpg) no-repeat
+}
+
+.productIntro.corp .liInfo ul li:nth-child(4) .pic {
+    background: url(../images/corp_04.jpg) no-repeat
+}
+
+.productIntro.corp .liInfo ul li p {
+    color: #dfaf4a
+}
+
+.productIntro.corp .liInfo ul li a {
+    color: #fff;
+    width: 218px;
+    height: 42px;
+    display: block;
+    border: 1px solid #fff;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px
+}
+
+.productIntro.corp .liInfo ul li a:hover {
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.topic_finance_section.type3 {
+    background: transparent url("../images/bg_stock_2.jpg") center top no-repeat;
+    background-size: cover
+}
+
+.topic_finance_section.type3 .topic_finance_title {
+    position: relative;
+    max-width: 1360px;
+    padding: 0;
+    margin: 0 auto 20px;
+    height: 50px;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.topic_finance_section.type3 .topic_finance_title .thumbs-cotnainer {
+    left: 195px;
+    width: 100%
+}
+
+.topic_finance_section.type3 .topic_finance_list .topic_finance_item {
+    margin: 0 30px 0 0
+}
+
+.topic_finance_section .rate_area {
+    display: inline-block;
+    color: #ffcb5e
+}
+
+.topic_finance_section .rate_area span {
+    padding: 5px 10px;
+    margin: 0 0 0 10px;
+    background-color: rgba(0, 0, 0, .3)
+}
+
+.topic_finance_section .rate_area .rate_buy:before {
+    display: inline-block;
+    content: '買：';
+    color: #30e9d1
+}
+
+.topic_finance_section .rate_area .rate_sell:before {
+    display: inline-block;
+    content: '賣：';
+    color: #ff8285
+}
+
+.topic_finance_section .topic_rate_tools {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px
+}
+
+.topic_rate_tools a {
+    font-size: 18px;
+    color: #dfaf4a;
+    border: 1px solid #dfaf4a;
+    border-radius: 2px;
+    line-height: 40px;
+    display: block;
+    text-align: center
+}
+
+.topic_rate_tools a:hover {
+    color: #2f5480;
+    background-color: #dfaf4a
+}
+
+.main_block {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box
+}
+
+.topic_finance_section .topic_financed_content {
+    position: relative;
+    padding: 20px 700px 0 0
+}
+
+.table_info {
+    display: table;
+    width: 100%;
+    border-spacing: 0
+}
+
+.table_info thead th {
+    padding-bottom: 15px;
+    text-align: left
+}
+
+.table_info_switcher {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal
+}
+
+.table_info_switcher li {
+    display: inline-block;
+    margin: 0 -4px 0 0
+}
+
+.table_info_switcher li a {
+    padding: 0 15px;
+    border-left: solid 1px #fff;
+    display: block
+}
+
+.table_info_switcher li:first-child a {
+    border: none;
+    padding: 0 15px 0 0
+}
+
+.table_info_switcher a {
+    color: #b9babb
+}
+
+.table_info_switcher a:hover {
+    color: #fff
+}
+
+.table_info_switcher .active a {
+    color: #fff;
+    font-weight: bold
+}
+
+.topic_finance_section .inner {
+    max-width: 1000px;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff
+}
+
+.topic_finance_section .box_L, .topic_finance_section .box_R {
+    /*width: 48%;*/
+    height: 440px;
+    display: inline-block;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: top
+}
+
+.topic_finance_section .box_L {
+    position: relative;
+    padding: 0 20px 0 0
+}
+
+.topic_finance_section .box_L .more {
+    top: 0;
+    right: 20px
+}
+
+.topic_finance_section .data_box img {
+    width: 100%;
+    height: auto
+}
+
+.topic_finance_section .data_detail {
+    border-bottom: 1px solid #526985;
+    border-top: 1px solid #526985;
+    margin: 0 0 10px
+}
+
+.topic_finance_section .data_detail li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -4px
+}
+
+.topic_finance_section .data_detail + p {
+    font-size: 14px
+}
+
+.topic_finance_section .box_R {
+    border-left: 1px solid #526985;
+    position: relative;
+    padding: 0 0 0 20px
+}
+
+.box_R .nav_li {
+    border-bottom: 1px solid #fff
+}
+
+.box_R .nav_li li {
+    display: inline-block
+}
+
+.box_R .nav_li a {
+    color: #fff;
+    margin: 0 2px -1px 0;
+    padding: 0 10px 5px 10px;
+    display: block
+}
+
+.box_R .nav_li li.active a, .box_R .nav_li li a:hover {
+    border-bottom: 3px solid #e4bc67
+}
+
+.box_R .news_li li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    line-height: 30px;
+    color: #fff;
+    border-bottom: 1px solid #56687c;
+    padding: 8px 0
+}
+
+.box_R .news_li li p {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    display: inline-block;
+    white-space: nowrap;
+    width: calc(100% - 180px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle
+}
+
+.box_R .news_li li span {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.box_R .news_li .tag {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 5px;
+    line-height: 24px;
+    margin-right: 5px
+}
+
+.box_R .news_li .tag.n1 {
+    background-color: #ffa633
+}
+
+.box_R .news_li .tag.n2 {
+    background-color: #ff4a52
+}
+
+.box_R .news_li .tag.n3 {
+    background-color: #097492
+}
+
+.box_R .news_li .tag.n4 {
+    background-color: #c252cf
+}
+
+.box_R .news_li .tag.n5 {
+    background-color: #de9d5b
+}
+
+.box_R .news_li .tag.n6 {
+    background-color: #f15d98
+}
+
+.box_R .news_li .tag.n7 {
+    background-color: #00b7ee
+}
+
+.box_R .news_li .tag.n8 {
+    background-color: #8063c9
+}
+
+.box_R .news_li .tag.news {
+    background: url(../images/icon_new.png) center no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 24px;
+    padding: 0;
+    margin: 0 0 0 5px
+}
+
+.box_R .news_li .tag.time {
+    margin: 0;
+    font-size: 14px
+}
+
+.table_info tbody th {
+    padding: 15px 0;
+    border: none;
+    background-color: rgba(0, 0, 0, .18)
+}
+
+.table_info tbody th.type {
+    color: #71b8fc;
+    text-align: left;
+    padding: 0 0 0 72px;
+    width: 228px
+}
+
+.table_info tbody th.buy {
+    color: #30e9d1;
+    width: calc((100% - 300px) / 2)
+}
+
+.table_info tbody th.sell {
+    color: #ff8285;
+    width: calc((100% - 300px) / 2)
+}
+
+.table_info tbody td {
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border-bottom: 1px solid #fff
+}
+
+.table_info tbody td:first-child {
+    text-align: left
+}
+
+.table_info img {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 20px;
+    width: 32px;
+    height: 22px
+}
+
+.table_info tfoot td {
+    text-align: center;
+    color: #b9babb;
+    padding: 15px 0
+}
+
+.table_info tfoot td:first-child {
+    text-align: left
+}
+
+.table_info tfoot td:last-child {
+    text-align: right
+}
+
+.topic_financed_content .topic_financed_repoart {
+    width: 680px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 0
+}
+
+.topic_financed_repoart h5.tf_name {
+    color: #fff;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 0 20px
+}
+
+h5.tf_name ul.side_bar {
+    float: right;
+    font-size: 15px
+}
+
+h5.tf_name ul.side_bar li {
+    display: inline-block;
+    margin: 0 0 0 10px
+}
+
+ul.side_bar .line_bar {
+    height: 3px;
+    border-radius: 4px;
+    width: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10px 0 0
+}
+
+.topic_financed_repoart img {
+    width: 100%;
+    height: auto
+}
+
+.topic_finance_section .topic_finance_tools {
+    text-align: center;
+    padding: 20px 0 0
+}
+
+.topic_finance_tools .topic_finance_tools_close {
+    padding-left: 30px;
+    color: #fff;
+    background: transparent url("../images/img_close_up.png") left center no-repeat
+}
+
+.topic_finance_tools_close:hover {
+    color: #87ccff
+}
+
+.topic_finance_tools a.more {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    width: 140px;
+    line-height: 40px;
+    display: block;
+    margin: 0 auto
+}
+
+.topic_finance_tools a.more:hover {
+    background-color: #fff;
+    color: #000
+}
+
+.section_shortcut_all {
+    background: #fff url("../images/bg_shortcut.png") top center no-repeat
+}
+
+.shortcut_all {
+    text-align: center
+}
+
+.shortcut_all .inner {
+    max-width: 1440px
+}
+
+.shortcut_all .slides {
+    padding: 0 20px
+}
+
+.shortcut_all .slick-prev, .shortcut_all .slick-next {
+    font-size: 0;
+    position: absolute;
+    z-index: 8;
+    top: calc(50% - 50px);
+    width: 30px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent
+}
+
+.shortcut_all .slick-prev:before, .shortcut_all .slick-next:before {
+    font-size: 20px;
+    display: inline-block;
+    color: #34495e
+}
+
+.shortcut_all .slick-prev {
+    left: 0;
+    background: url(../images/img_event_prev.png) 0 center no-repeat
+}
+
+.shortcut_all .slick-next {
+    right: 0;
+    background: url(../images/img_event_next.png) 0 center no-repeat
+}
+
+.shortcut_all .slick-dots {
+    margin: 0 0 -20px
+}
+
+.shortcut_all .slick-dots li {
+    display: inline-block
+}
+
+.shortcut_all .slick-dots li button {
+    font-size: 0;
+    border: none;
+    background: none;
+    padding: 0
+}
+
+.shortcut_all .slick-dots li button:before {
+    font-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    content: '•';
+    color: #aaa;
+    background-color: transparent
+}
+
+.shortcut_all .slick-dots .slick-active button:before {
+    color: #000
+}
+
+.shortcut_all .shortcut_all_title {
+    font-size: 21px;
+    margin: 0 0 20px;
+    color: #34495e
+}
+
+.shortcut_all .shortcut_item {
+    display: inline-block;
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: bottom
+}
+
+.shortcut_all .shortcut_item a {
+    font-weight: bold;
+    display: block;
+    color: #454f5c;
+    position: relative;
+    padding: 60px 0 20px 0
+}
+
+.shortcut_all .shortcut_item a:hover {
+    color: #000
+}
+
+.shortcut_all .shortcut_item a span {
+    padding: 4px 20px;
+    border-bottom: 3px solid transparent
+}
+
+.shortcut_all .shortcut_item a:hover > span {
+    border-bottom: 3px solid #2d92cb
+}
+
+.shortcut_item a .icon_item, .shortcut_item a .icon_item_hide {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 50%;
+    margin-left: -30px
+}
+
+.shortcut_item a .icon_item_hide {
+    display: none
+}
+
+.shortcut_item a:hover .icon_item_hide {
+    display: block;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s
+}
+
+.video_section {
+    background: #ec6a00 url("../images/bg_video.png") center 145px no-repeat;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.video_section .video_content_all {
+    text-align: center;
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 270px;
+    bottom: 0;
+    left: 0
+}
+
+.video_section .video_content {
+    float: left;
+    width: 740px;
+    min-height: 220px;
+    text-align: left;
+    color: #fff
+}
+
+.video_section .inner {
+    position: relative;
+    width: 1360px;
+    padding: 40px 0;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.video_section .video_content .video_content_title {
+    font-size: 42px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.video_section .video_content .video_content_sub_title {
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #e78a3f
+}
+
+.video_section .video_content p {
+    margin: 0 0 20px
+}
+
+.video_section .video_content .video_content_more {
+    color: #fff;
+    border-color: #fff
+}
+
+.video_section .video_content .video_content_more:hover {
+    color: #ec6a00;
+    background-color: #fff
+}
+
+.video_section .video_film {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+    width: 330px;
+    height: 220px
+}
+
+.card_slides {
+    color: #fff;
+    padding: 0 40px;
+    text-align: center;
+    position: relative;
+    max-width: 1360px;
+    margin: 0 auto
+}
+
+.card_slides .card_slides_box {
+    width: 600px;
+    margin: 0 30px
+}
+
+.card_slides .card_slides_box .in {
+    position: relative;
+    width: 230px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+    filter: alpha(opacity=60);
+    -moz-opacity: .6;
+    opacity: .6;
+    -khtml-opacity: .6;
+    transition: all .3s
+}
+
+.card_slides .card_slides_box.slick-center {
+    width: 600px;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+    -khtml-opacity: 1
+}
+
+.card_slides_box.slick-slide.slick-active .in {
+    float: right
+}
+
+.card_slides .card_slides_box.slick-center .in {
+    width: 600px;
+    float: left
+}
+
+.card_slides .card_slides_box.slick-center + .card_slides_box .in {
+    float: left
+}
+
+.card_slides_box .info_box {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 350px;
+    display: block;
+    padding: 0 0 0 20px;
+    transition: all .5s;
+    opacity: 0
+}
+
+.card_slides_box.slick-center .info_box {
+    opacity: 1
+}
+
+.card_slides .pic_box {
+    width: 230px;
+    float: left
+}
+
+.card_slides .pic_box img {
+    width: 100%;
+    height: auto
+}
+
+.card_slides_box h5 {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    margin: 0 0 20px;
+    line-height: 40px;
+    font-weight: normal
+}
+
+.card_slides_box h6 {
+    margin: 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff
+}
+
+.card_slides_box .info_box p {
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px
+}
+
+.icon_dot {
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    display: inline-block
+}
+
+.card_slides .slick-prev, .card_slides .slick-next {
+    font-size: 0;
+    position: absolute;
+    z-index: 8;
+    top: 60%;
+    margin: -20px 0;
+    width: 40px;
+    height: 40px;
+    border: none
+}
+
+.card_slides .slick-prev {
+    left: 0;
+    background: url("../images/icon_topic_recommend_content_prev.png") center center no-repeat;
+    cursor: pointer;
+    background-size: contain
+}
+
+.card_slides .slick-next {
+    right: 0;
+    background: url("../images/icon_topic_recommend_content_next.png") center center no-repeat;
+    cursor: pointer;
+    background-size: contain
+}
+
+.contact_info {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    background: url(../images/bg_contact.jpg) center no-repeat;
+    background-size: cover
+}
+
+.contact_info .inner {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: calc(100% - 20px);
+    max-width: 980px;
+    height: calc(100% - 60px);
+    margin: 20px auto;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    border-bottom: solid 1px #fff
+}
+
+.contact_title {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 21px
+}
+
+.contact_title::before, .contact_title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    background: #fff
+}
+
+.contact_title::before {
+    top: 10px;
+    left: 0
+}
+
+.contact_title::after {
+    top: 10px;
+    right: 0
+}
+
+.contact_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%
+}
+
+.contact_inner a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff
+}
+
+.contact_inner span {
+    display: block;
+    padding-top: 10px;
+    font-size: 30px
+}
+
+.Iconbox {
+    width: calc(100% / 3);
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    height: 270px
+}
+
+.Icon_01 {
+    background-image: url(../images/img_content_W01.png);
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    display: block;
+    background-position-x: center
+}
+
+.Icon_02 {
+    background-image: url(../images/img_content_W05.png);
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    display: block;
+    background-position-x: center
+}
+
+.Icon_03 {
+    background-image: url(../images/img_content_W03.png);
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    display: block;
+    background-position-x: center
+}
+
+.CheckNumber {
+    display: inline-block;
+    margin: 30px 5px;
+    width: 220px;
+    height: 2.5em;
+    color: #0068b7;
+    background: hsla(0, 0%, 100%, .7);
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+}
+
+.CheckNumber:hover, .CheckNumber:active {
+    background-color: #0068b7;
+    border-color: #fff;
+    color: #fff;
+    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+}
+
+.CheckNumber::before {
+    content: "";
+    position: relative;
+    top: 14px;
+    left: 16%;
+    width: 0;
+    height: 0;
+    border-width: 0 7px 12px;
+    border-style: solid;
+    border-color: transparent transparent #0068b7;
+    transform: rotate(90deg);
+    display: block
+}
+
+.CheckNumber:hover::before {
+    content: "";
+    position: relative;
+    top: 14px;
+    left: 16%;
+    width: 0;
+    height: 0;
+    border-width: 0 7px 12px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    transform: rotate(90deg);
+    display: block
+}
+
+.CheckNumber::after {
+    content: "查詢線上等候人數";
+    padding-left: 1.5em
+}
+
+.footer_in {
+    display: none
+}
+
+.footer .inner.mobile {
+    display: none
+}
+
+@media screen and (max-width: 1680px) {
+    .video_section .video_content_all {
+        right: 160px
+    }
+
+    .footer {
+        padding-bottom: 40px
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .video_section .video_content_all {
+        right: 0
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .block_event .slick-prev, .block_event .slick-next {
+        top: 47px
+    }
+
+    .event_area.type2 {
+        padding: 0 0 0 390px;
+        min-height: 280px
+    }
+
+    .block_news h4 {
+        margin: 0 0 18px
+    }
+
+    .event_area.type2 .block_event {
+        width: 360px
+    }
+
+    .block_event {
+        left: 0
+    }
+
+    .event_area.type2 .block_news .article_list li {
+        margin: 0 0 18px
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .event_area {
+        position: relative;
+        min-height: 300px;
+        max-width: 1360px;
+        box-sizing: border-box;
+        margin: 0 auto
+    }
+
+    .block_section.type2 {
+        padding: 30px 0
+    }
+
+    .block_section.type3 {
+        padding: 20px 10px 0
+    }
+
+    .video_section .inner {
+        width: 100%;
+        padding: 40px 470px 40px 40px
+    }
+
+    .video_section .video_content {
+        width: 100%
+    }
+
+    .video_section .video_film {
+        right: 120px
+    }
+
+    .video_section .video_content_all {
+        right: -150px
+    }
+
+    .table_info tbody th.type {
+        color: #71b8fc;
+        text-align: left;
+        padding: 0 0 0 72px;
+        width: 108px
+    }
+
+    .table_info tbody th.buy {
+        width: calc((100% - 180px) / 2)
+    }
+
+    .table_info tbody th.sell {
+        width: calc((100% - 180px) / 2)
+    }
+
+    .shortcut_all .shortcut_item a span.long {
+        width: 100px;
+        height: 40px;
+        display: block;
+        word-break: break-all;
+        padding: 0 5px 4px 5px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .block_event .slick-prev, .block_event .slick-next {
+        top: 35px
+    }
+
+    .event_area.type2 {
+        padding: 0 0 0 640px;
+        min-height: 260px
+    }
+
+    .event_area.type2 .block_event {
+        width: 600px
+    }
+
+    .block_event {
+        left: 0
+    }
+
+    .event_area.type2 .block_news .article_list li {
+        margin: 0 0 12px
+    }
+
+    .topic_financed_content .topic_financed_repoart {
+        width: 560px
+    }
+
+    .topic_finance_section .topic_financed_content {
+        padding: 20px 580px 0 0
+    }
+
+    .card_slides {
+        padding: 0 40px
+    }
+
+    .card_slides .card_slides_box {
+        width: 500px;
+        margin: 0 20px
+    }
+
+    .card_slides .card_slides_box .in {
+        width: 230px
+    }
+
+    .card_slides .card_slides_box.slick-center {
+        width: 500px
+    }
+
+    .card_slides_box.slick-slide.slick-active .in {
+        float: right
+    }
+
+    .card_slides .card_slides_box.slick-center .in {
+        width: 500px;
+        float: left
+    }
+
+    .card_slides .card_slides_box.slick-center + .card_slides_box .in {
+        float: left
+    }
+
+    .card_slides_box .info_box {
+        width: 250px
+    }
+
+    .card_slides .pic_box {
+        width: 230px;
+        float: left
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .shortcut_webbank {
+        padding: 0;
+        height: 300px;
+        margin-top: 0;
+        top: 10px
+    }
+
+    .shortcut_webbank .shortcut_webbank_ul li {
+        padding: 5px 0
+    }
+
+    .shortcut_webbank .tabs {
+        height: 30px
+    }
+
+    .shortcut_webbank .tabs li {
+        line-height: 30px;
+        height: 30px;
+        font-size: 16px
+    }
+
+    .tab_container .text_box, .tab_container select, .tab_content a.btn_log {
+        margin: 0 0 5px
+    }
+
+    .shortcut_webbank .shortcut_webbank_title {
+        margin: 0
+    }
+
+    .event_area {
+        padding: 0 0 0 400px
+    }
+
+    .event_area.type2 {
+        padding: 0 0 0 390px;
+        min-height: 280px
+    }
+
+    .block_news h4 {
+        margin: 0 0 18px
+    }
+
+    .event_area.type2 .block_event {
+        width: 360px
+    }
+
+    .block_event {
+        left: 0
+    }
+
+    .event_area.type2 .block_news .article_list li {
+        margin: 0 0 18px
+    }
+
+    .topic_finance_list .topic_finance_item {
+        display: inline-block;
+        line-height: 36px;
+        margin: 0 5px 0 0
+    }
+
+    .table_info tbody th.type {
+        color: #71b8fc;
+        text-align: left;
+        padding: 0 0 0 72px;
+        width: 108px
+    }
+
+    .table_info tbody th.buy {
+        width: calc((100% - 180px) / 2)
+    }
+
+    .table_info tbody th.sell {
+        width: calc((100% - 180px) / 2)
+    }
+
+    .table_info tfoot td {
+        padding: 10px 0;
+        font-size: 14px
+    }
+
+    .productIntro.invest .liInfo ul li {
+        width: 180px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.invest .liInfo ul li .pic {
+        position: relative;
+        width: 180px;
+        height: 123px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.invest .liInfo ul li a {
+        color: #fff;
+        width: 178px;
+        height: 38px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 38px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.insurance .liInfo ul li {
+        width: 160px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.insurance .liInfo ul li .pic {
+        position: relative;
+        width: 180px;
+        height: 123px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.insurance .liInfo ul li a {
+        color: #fff;
+        width: 178px;
+        height: 38px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 38px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.corp .liInfo ul li {
+        width: 180px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.corp .liInfo ul li .pic {
+        position: relative;
+        width: 180px;
+        height: 123px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.corp .liInfo ul li a {
+        color: #fff;
+        width: 178px;
+        height: 38px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 38px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.wealth .liInfo ul li {
+        display: block
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(1) {
+        float: left;
+        padding: 0 25px 0 0
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(2) {
+        float: right;
+        padding: 0 0 0 25px
+    }
+
+    .topic_financed_content .topic_financed_repoart {
+        width: 400px
+    }
+
+    .topic_finance_section .topic_financed_content {
+        padding: 20px 420px 0 0
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .productIntro.wealth .liInfo ul {
+        width: 821px
+    }
+
+    .productIntro.wealth .liInfo ul li {
+        width: 380px;
+        height: 208px
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(1) {
+        padding: 0 30px 0 0
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(2) {
+        padding: 0 0 0 30px
+    }
+
+    .productIntro.wealth .liInfo ul li .pic {
+        width: 208px;
+        height: 208px
+    }
+
+    .productIntro.wealth .liInfo ul li .info {
+        width: 152px;
+        height: 200px;
+        padding: 8px 10px 0
+    }
+
+    .productIntro.wealth .liInfo ul li h4 {
+        margin: 3px 0
+    }
+
+    .productIntro.wealth .liInfo ul li p {
+        padding: 0
+    }
+
+    .productIntro.wealth .liInfo ul li a {
+        left: 10px;
+        bottom: 10px;
+        width: 152px;
+        height: 30px;
+        line-height: 30px
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .CheckNumber {
+        display: inline-block;
+        margin: 10px 0 5px 0;
+        width: 220px;
+        height: 2.5em;
+        color: #0068b7;
+        background: hsla(0, 0%, 100%, .7);
+        border: 2px solid #fff;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+    }
+
+    .Iconbox {
+        padding-top: 15px;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .topic_finance_list .topic_finance_item {
+        display: inline-block;
+        line-height: 36px;
+        margin: 0 15px 0 0
+    }
+
+    .topic_finance_section .rate_area {
+        display: none
+    }
+
+    .block_section.type3 {
+        min-height: auto;
+        padding: 20px 10px
+    }
+
+    .block_section.type3 .event_area {
+        min-height: auto;
+        padding: 0 240px 0 10px;
+        min-height: 200px
+    }
+
+    .app_list .app_box li {
+        height: auto;
+        min-height: 90px
+    }
+
+    .app_list .app_box .info_box {
+        height: 60px;
+        position: relative;
+        padding: 10px 10px 10px 60px
+    }
+
+    .app_box .info_box .pic {
+        width: 40px;
+        height: 40px
+    }
+
+    .app_box .info_box p {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .app_link_item {
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#99000000', GradientType=0)
+    }
+
+    .app_link_item p {
+        min-height: auto;
+        font-size: 14px
+    }
+
+    .block_section.type3 .event_area .event_ad {
+        width: 210px
+    }
+
+    .block_section.type2 .slick-slide {
+        padding: 10px
+    }
+
+    .video_section .video_film {
+        right: 100px
+    }
+
+    .video_section .video_content_all {
+        right: -280px
+    }
+
+    .video_section .video_content .video_content_title {
+        font-size: 36px
+    }
+
+    .video_section .video_content .video_content_sub_title {
+        font-size: 28px
+    }
+
+    .table_info tbody th.type {
+        color: #71b8fc;
+        text-align: left;
+        padding: 0 0 0 52px;
+        width: 98px
+    }
+
+    .table_info tbody th.buy {
+        width: calc((100% - 150px) / 2)
+    }
+
+    .table_info tbody th.sell {
+        width: calc((100% - 150px) / 2)
+    }
+
+    .table_info img {
+        margin: 0 10px
+    }
+
+    .event_area {
+        padding: 0 0 0 328px
+    }
+
+    .block_news .item_list {
+        margin: 0 0 20px
+    }
+
+    .block_news .item_list li {
+        margin: 0;
+        padding: 0 5px 5px
+    }
+
+    .block_news .article_list li {
+        margin: 0 0 20px
+    }
+
+    .block_section.type2 {
+        padding: 10px 10px 30px
+    }
+
+    .content-container {
+        height: 300px
+    }
+
+    .productIntro {
+        height: 300px
+    }
+
+    .productIntro .liInfo ul li {
+        width: 140px
+    }
+
+    .productIntro .liInfo ul li .pic {
+        width: 140px;
+        height: 140px
+    }
+
+    .productIntro .liInfo ul li .pic .cover {
+        width: 140px;
+        height: 140px;
+        line-height: 140px
+    }
+
+    .productIntro .liInfo ul li:hover > .pic .cover {
+        width: 140px;
+        height: 140px
+    }
+
+    .productIntro.invest .liInfo ul li {
+        width: 150px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.invest .liInfo ul li .pic {
+        position: relative;
+        width: 150px;
+        height: 102px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.invest .liInfo ul li a {
+        color: #fff;
+        width: 148px;
+        height: 30px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.insurance .liInfo ul li {
+        width: 150px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.insurance .liInfo ul li .pic {
+        position: relative;
+        width: 150px;
+        height: 102px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.insurance .liInfo ul li a {
+        color: #fff;
+        width: 148px;
+        height: 30px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.corp .liInfo ul li {
+        width: 150px;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden
+    }
+
+    .productIntro.corp .liInfo ul li .pic {
+        position: relative;
+        width: 150px;
+        height: 102px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.corp .liInfo ul li a {
+        color: #fff;
+        width: 148px;
+        height: 30px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .productIntro.wealth .liInfo ul {
+        width: 688px;
+        margin: 20px auto 0;
+        text-align: center
+    }
+
+    .productIntro.wealth .liInfo ul li {
+        width: 330px;
+        height: 176px;
+        display: inline-block;
+        cursor: pointer;
+        clear: both
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(1) {
+        padding: 0 13px 0 0;
+        border-right: 1px solid rgba(225, 175, 75, .4)
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(2) {
+        padding: 0 0 0 13px
+    }
+
+    .productIntro.wealth .liInfo ul li .pic {
+        width: 176px;
+        height: 176px
+    }
+
+    .productIntro.wealth .liInfo ul li .info {
+        width: 140px;
+        height: 168px;
+        padding: 8px 7px 0
+    }
+
+    .productIntro.wealth .liInfo ul li .info p {
+        font-size: 14px;
+        padding: 0;
+        line-height: 1.4
+    }
+
+    .productIntro.wealth .liInfo ul li a {
+        left: 10px;
+        bottom: 8px;
+        width: 134px;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .card_slides {
+        padding: 0 40px
+    }
+
+    .card_slides .card_slides_box {
+        width: 550px;
+        margin: 0 20px
+    }
+
+    .card_slides .card_slides_box .in {
+        width: 230px
+    }
+
+    .card_slides .card_slides_box.slick-center {
+        width: 550px
+    }
+
+    .card_slides_box.slick-slide.slick-active .in {
+        float: right
+    }
+
+    .card_slides .card_slides_box.slick-center .in {
+        width: 550px;
+        float: left
+    }
+
+    .card_slides .card_slides_box.slick-center + .card_slides_box .in {
+        float: left
+    }
+
+    .card_slides_box .info_box {
+        width: 300px
+    }
+
+    .card_slides .pic_box {
+        width: 230px;
+        float: left
+    }
+
+    .contact_info {
+        height: 270px
+    }
+
+    .contact_info .inner {
+        width: calc(100% - 40px);
+        background-size: contain
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .appRcmd {
+        position: relative;
+        padding: 10px 15px 10px 45px;
+        background: linear-gradient(to bottom, #f1f1f1 0%, #fff 50%);
+        border-top: solid 1px #4085cc
+    }
+
+    .appRcmd_close {
+        position: absolute;
+        top: calc(50% - 8px);
+        left: 15px;
+        width: 15px;
+        height: 15px;
+        background: url(../images/icon_apprcmd_close.png) center;
+        background-size: 100%
+    }
+
+    .appRcmdBox {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .appRcmdBox .icon {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60px;
+        flex: 0 0 60px;
+        margin-right: 10px
+    }
+
+    .appRcmdBox .icon img {
+        width: 100%
+    }
+
+    .appRcmdInner {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto
+    }
+
+    .appRcmdInner h6 {
+        font-size: 16px
+    }
+
+    .appRcmdInner p {
+        font-size: 14px
+    }
+
+    .appRcmdInner .stars span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 2px;
+        background: url(../images/icon_apprcmd_star.png) center no-repeat;
+        background-size: 100%
+    }
+
+    .appRcmd_link {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        display: block;
+        padding: 3px 6px;
+        color: #e2b148;
+        border: solid 1px #e2b148;
+        border-radius: 3px
+    }
+
+    .block_section.section_shortcut_all {
+        padding: 20px 0
+    }
+
+    .shortcut_all .inner {
+        max-width: auto
+    }
+
+    .shortcut_all .shortcut_all_title {
+        font-size: 24px;
+        margin: 10px 0
+    }
+
+    .shortcut_all .shortcut_item {
+        margin: 0 0
+    }
+
+    .shortcut_all .slides {
+        padding: 0 10px
+    }
+
+    .shortcut_all .slick-dots {
+        margin: 0;
+        padding: 0 0 10px
+    }
+
+    .shortcut_all .slick-prev {
+        left: 0
+    }
+
+    .shortcut_all .slick-next {
+        right: 0
+    }
+
+    .shortcut_all .shortcut_item a {
+        padding-bottom: 10px
+    }
+
+    .topic_finance {
+        padding: 0 0 20px 0
+    }
+
+    .topic_finance_title.ind {
+        top: 0;
+        width: 100%;
+        padding: 40px 10px 0;
+        box-sizing: border-box
+    }
+
+    .topic_finance_title h3, .type2 .topic_finance_title h3 {
+        top: 0;
+        left: 10px;
+        bottom: inherit;
+        font-size: 20px;
+        line-height: 40px
+    }
+
+    .topic_finance_title.ind h3 {
+        top: 0;
+        left: 10px;
+        bottom: inherit;
+        font-size: 20px;
+        line-height: 40px
+    }
+
+    .topic_finance_section.type3 .topic_finance_title {
+        width: calc(100% - 20px);
+        height: 80px;
+        overflow: hidden
+    }
+
+    .topic_finance_section.type3 .topic_finance_title h3 {
+        position: static;
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .topic_finance_section.type3 .topic_finance_title .thumbs-cotnainer {
+        position: static
+    }
+
+    .topic_finance_section .topic_rate_tools {
+        right: 10px;
+        width: 80px
+    }
+
+    .topic_finance_section .topic_rate_tools a {
+        line-height: 30px;
+        font-size: 16px
+    }
+
+    .topic_finance_section .rate_area {
+        display: none
+    }
+
+    .topic_finance_title .topic_finance_list_all {
+        margin: 0
+    }
+
+    .topic_finance_list_all .topic_finance_list {
+        width: 100%;
+        display: block
+    }
+
+    .topic_finance_list_all .topic_finance_list .topic_finance_item {
+        margin: 0 -4px 0 0;
+        width: 33.3%;
+        text-align: center;
+        font-size: 18px
+    }
+
+    .topic_finance_section .topic_financed_content {
+        padding: 0
+    }
+
+    .topic_financed_content .topic_financed_repoart {
+        position: static;
+        top: inherit;
+        right: inherit;
+        width: 100%;
+        min-width: 300px;
+        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+        overflow: hidden
+    }
+
+    .topic_finance_section .topic_finance_tools {
+        padding: 10px 0
+    }
+
+    .topic_finance_section {
+        padding: 20px 10px
+    }
+
+    .topic_finance_section .inner {
+        max-width: 100%;
+        padding: 0
+    }
+
+    .topic_finance_section .box_L, .topic_finance_section .box_R {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: left;
+        border-left: none
+    }
+
+    .topic_finance_section .box_L {
+        margin: 0 0 10px;
+        padding: 0
+    }
+
+    .topic_finance_section .box_L .more {
+        right: 0
+    }
+
+    .topic_finance_section .box_R {
+        border-top: 1px solid #526985;
+        padding: 10px 0 0
+    }
+
+    .topic_finance_section .box_R a.more {
+        top: 9px
+    }
+
+    .box_L p {
+        font-size: 1em;
+        line-height: 1.2em
+    }
+
+    .topic_finance_section .data_detail {
+        text-align: center
+    }
+
+    .topic_finance_section .data_detail li {
+        min-width: 16%;
+        width: auto;
+        text-align: center;
+        padding: 10px 4px;
+        box-sizing: border-box;
+        margin-left: -4px
+    }
+
+    .topic_finance_section .data_detail + p {
+        font-size: 13px
+    }
+
+    .table_info_switcher li {
+        margin: 0 0 10px
+    }
+
+    .table_info_switcher li a {
+        padding: 0 5px
+    }
+
+    .table_info_switcher li:first-child a {
+        padding: 0 5px 0 0
+    }
+
+    .IndexPrice_box {
+        margin: 0 0 20px 0
+    }
+
+    .block_section.type3 {
+        min-height: auto;
+        padding: 20px 10px
+    }
+
+    .block_section.type3 .event_area {
+        margin: 0;
+        padding: 0;
+        min-height: auto
+    }
+
+    .app_list .app_box {
+        margin: 0 0 20px 0
+    }
+
+    .app_list .app_box li {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        min-height: 80px;
+        margin: 0 0 10px;
+        padding: 0;
+        box-sizing: border-box
+    }
+
+    .app_list .app_box .info_box {
+        position: relative;
+        min-height: 60px;
+        padding: 10px 10px 10px 60px
+    }
+
+    .app_box .info_box .pic {
+        width: 40px;
+        height: 40px
+    }
+
+    .app_box .info_box p {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .app_link {
+        max-height: 160px;
+        margin-bottom: 20px;
+        overflow: hidden
+    }
+
+    .app_link_item {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding: 30px 10px;
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 70%);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 70%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 70%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#b3000000', GradientType=0)
+    }
+
+    .app_link_item h4 {
+        margin-bottom: 20px
+    }
+
+    .app_link a.more {
+        top: 30px
+    }
+
+    .block_section.type3 .event_area .event_ad {
+        width: 100%;
+        height: auto;
+        position: inherit;
+        right: 0
+    }
+
+    .table_info thead th {
+        padding: 15px 0;
+        text-align: center
+    }
+
+    .table_info tbody th.type {
+        padding: 0 0 0 62px;
+        width: 98px
+    }
+
+    .table_info tbody th.buy {
+        width: calc((100% - 160px) / 2)
+    }
+
+    .table_info tbody th.sell {
+        width: calc((100% - 160px) / 2)
+    }
+
+    .table_info tfoot td {
+        padding: 10px 5px;
+        font-size: 14px
+    }
+
+    .table_info tbody td:first-child {
+        padding: 15px 0 15px 10px
+    }
+
+    .topic_financed_info {
+        margin: 0 0 20px
+    }
+
+    .video_section {
+        height: auto;
+        background: #ec6a00 url("../images/bg_video.jpg") right 0 no-repeat;
+        background-size: contain
+    }
+
+    .video_content_all {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        opacity: 0;
+        -khtml-opacity: 0
+    }
+
+    .video_section .inner {
+        position: relative;
+        padding: 20px 0 0
+    }
+
+    .video_section .video_content {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0 10px;
+        box-sizing: border-box
+    }
+
+    .video_section .video_content p {
+        text-align: center;
+        margin: 0 0 10px
+    }
+
+    .video_section .video_film {
+        position: static;
+        width: 100%
+    }
+
+    .video_section .video_content .video_content_more {
+        margin: 0 auto;
+        width: 50%;
+        display: block;
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .video_section .video_content .video_content_title {
+        text-align: center
+    }
+
+    .video_section .video_content .video_content_sub_title {
+        text-align: center
+    }
+
+    .block_section.type2 {
+        padding: 0;
+        height: auto
+    }
+
+    .block_section.type2 .slick-slider {
+        margin-bottom: 30px
+    }
+
+    .event_area, .event_area.type2 {
+        padding: 0;
+        min-height: auto
+    }
+
+    .block_event, .block_news {
+        width: 100%;
+        position: relative;
+        padding: 10px 10px 30px;
+        box-sizing: border-box
+    }
+
+    .block_event {
+        padding: 0 0 1px 0
+    }
+
+    .block_event, .event_area.type2 .block_event {
+        width: 100%;
+        top: 0;
+        left: inherit
+    }
+
+    .block_news {
+        background-color: #f9f9f9
+    }
+
+    .block_news .article_list li, .event_area.type2 .block_news .article_list li {
+        margin: 0;
+        padding: 0 0 10px
+    }
+
+    .block_news .item_list li {
+        border-bottom: 3px solid #f9f9f9
+    }
+
+    .block_event figure figcaption {
+        padding: 5px 10px;
+        text-align: center
+    }
+
+    .block_event figure figcaption span.block_event_date {
+        font-size: 20px;
+        padding: 5px 0
+    }
+
+    .event_area.type2 .block_event h4 {
+        padding: 0
+    }
+
+    .block_news h4 {
+        padding: 5px 0 11px
+    }
+
+    .event_area.type2 .block_news .item_list {
+        border-bottom: 0;
+        margin: 0 0 10px;
+        padding: 10px 10px 0
+    }
+
+    .event_area.type2 .block_news .item_list li {
+        font-size: 18px;
+        border-bottom: 0
+    }
+
+    .event_area.type2 .block_news .item_list li:hover {
+        border-bottom: none
+    }
+
+    .block_event a.more, .block_news a.more {
+        position: static;
+        margin: 0 auto;
+        width: 50%;
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .event_area.type2 .block_event a.more {
+        right: inherit
+    }
+
+    .block_news .item_list {
+        margin: 0 0 20px
+    }
+
+    .block_news .item_list li {
+        margin: 0 -4px;
+        width: 33%;
+        padding: 0
+    }
+
+    .block_news .item_list li a {
+        padding: 0;
+        line-height: 40px;
+        font-size: 16px
+    }
+
+    .event_area.type2 .slick-list {
+        margin: 0
+    }
+
+    .event_area.type2 .slick-slide {
+        margin: 0
+    }
+
+    .topic_finance_tools a.more {
+        width: 80%;
+        background-color: rgba(255, 255, 255, .2)
+    }
+
+    .card_slides {
+        padding: 0 40px;
+        max-width: 100%
+    }
+
+    .card_slides .card_slides_box {
+        width: 230px;
+        margin: 0 20px
+    }
+
+    .card_slides .card_slides_box .in {
+        width: 230px
+    }
+
+    .card_slides .card_slides_box.slick-center {
+        width: 230px
+    }
+
+    .card_slides_box.slick-slide.slick-active .in {
+        float: none
+    }
+
+    .card_slides .card_slides_box.slick-center .in {
+        width: 230px;
+        float: none
+    }
+
+    .card_slides .card_slides_box.slick-center + .card_slides_box .in {
+        float: none
+    }
+
+    .card_slides_box .info_box {
+        width: 230px;
+        position: static;
+        padding: 10px 0 0
+    }
+
+    .card_slides .pic_box {
+        width: 230px;
+        float: none;
+        padding: 0
+    }
+
+    .card_slides_box .info_box p {
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+
+    .content-container {
+        width: 100%;
+        height: 1050px
+    }
+
+    .productIntro {
+        position: relative;
+        height: 1050px
+    }
+
+    .productIntro.invest {
+        position: relative;
+        height: 1150px
+    }
+
+    .productIntro.invest .content-container {
+        width: 100%;
+        height: 1150px
+    }
+
+    .productIntro.insurance {
+        position: relative;
+        height: 1150px
+    }
+
+    .productIntro.insurance .content-container {
+        width: 100%;
+        height: 1150px
+    }
+
+    .productIntro.corp {
+        position: relative;
+        height: 1150px
+    }
+
+    .productIntro.corp .content-container {
+        width: 100%;
+        height: 1150px
+    }
+
+    .productIntro.wealth {
+        height: 440px
+    }
+
+    .productIntro.wealth .content-container {
+        height: 440px
+    }
+
+    .productIntro h3 {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        width: calc(100% - 20px);
+        text-align: center;
+        font-size: 30px;
+        color: #dfaf4a;
+        box-sizing: border-box
+    }
+
+    .productIntro .liInfo {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        font-size: 20px;
+        box-sizing: border-box;
+        text-align: center
+    }
+
+    .productIntro .liInfo ul {
+        margin: 20px auto 0
+    }
+
+    .productIntro .liInfo ul {
+        width: 100%;
+        margin: 20px auto 0;
+        display: inline-block
+    }
+
+    .productIntro .liInfo ul li {
+        width: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        margin: 0 0 20px 0
+    }
+
+    .productIntro .liInfo ul li .pic {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        display: block;
+        border-radius: 99em;
+        overflow: hidden;
+        margin: 0 auto
+    }
+
+    .productIntro .liInfo ul li .pic .cover {
+        width: 180px;
+        height: 180px;
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        opacity: 0;
+        text-align: center;
+        line-height: 180px;
+        color: #dfaf4a
+    }
+
+    .productIntro .liInfo ul li:hover > .pic .cover {
+        width: 180px;
+        height: 180px
+    }
+
+    .productIntro.invest .liInfo ul li {
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden;
+        margin: 0 0 20px 0
+    }
+
+    .productIntro.invest .liInfo ul li .pic {
+        position: relative;
+        width: 220px;
+        height: 150px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.invest .liInfo ul li a {
+        color: #fff;
+        width: 218px;
+        height: 42px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 42px;
+        margin: 0 auto
+    }
+
+    .productIntro.insurance .liInfo ul li {
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden;
+        margin: 0 0 20px 0
+    }
+
+    .productIntro.insurance .liInfo ul li .pic {
+        position: relative;
+        width: 220px;
+        height: 150px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.insurance .liInfo ul li a {
+        color: #fff;
+        width: 218px;
+        height: 42px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 42px;
+        margin: 0 auto
+    }
+
+    .productIntro.corp .liInfo ul li {
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+        overflow: hidden;
+        margin: 0 0 20px 0
+    }
+
+    .productIntro.corp .liInfo ul li .pic {
+        position: relative;
+        width: 220px;
+        height: 150px;
+        display: block;
+        border-radius: 0;
+        overflow: hidden;
+        border-bottom: 5px solid #dfaf4a
+    }
+
+    .productIntro.corp .liInfo ul li a {
+        color: #fff;
+        width: 218px;
+        height: 42px;
+        display: block;
+        border: 1px solid #fff;
+        line-height: 42px;
+        margin: 0 auto
+    }
+
+    .productIntro.wealth .liInfo {
+        padding: 10px 10px 0
+    }
+
+    .productIntro.wealth .liInfo ul {
+        width: 300px;
+        margin: 0 auto
+    }
+
+    .productIntro.wealth .liInfo ul li {
+        width: 100%;
+        height: 160px;
+        display: block;
+        cursor: pointer;
+        clear: both
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(1) {
+        padding: 0;
+        border-right: none
+    }
+
+    .productIntro.wealth .liInfo ul li:nth-child(2) {
+        padding: 0
+    }
+
+    .productIntro.wealth .liInfo ul li .pic {
+        width: 160px;
+        height: 160px
+    }
+
+    .productIntro.wealth .liInfo ul li .info {
+        width: 130px;
+        height: 155px;
+        padding: 5px 5px 0
+    }
+
+    .productIntro.wealth .liInfo ul li .info h4 {
+        margin: 0
+    }
+
+    .productIntro.wealth .liInfo ul li .info p {
+        font-size: 14px;
+        padding: 0;
+        line-height: 1.2
+    }
+
+    .productIntro.wealth .liInfo ul li a {
+        left: 10px;
+        bottom: 8px;
+        width: 120px;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .function_area {
+        display: none
+    }
+
+    .function_area, .thumbs-cotnainer {
+        height: 50px
+    }
+
+    .swiper-wrapper > div {
+        padding: 10px 0;
+        min-width: auto
+    }
+
+    .swiper-wrapper > div a {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .swiper-wrapper .func_tit {
+        display: none
+    }
+
+    .shortcut_all .shortcut_item a span {
+        font-size: 14px;
+        padding: 0
+    }
+
+    .shortcut_all .shortcut_item a span.long {
+        width: 80px;
+        height: 60px;
+        display: block;
+        word-break: break-all;
+        margin: 0 auto
+    }
+
+    .contact_info {
+        background: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        background: url(../images/bg_contact_m_2.jpg) center no-repeat;
+        background-size: cover
+    }
+
+    .contact_info .inner {
+        position: static;
+        transform: translateX(0) translateY(0);
+        width: calc(100% - 20px);
+        height: auto;
+        margin: 20px 10px 0;
+        padding: 40px 0 10px 0
+    }
+
+    .contact_title {
+        top: -20px;
+        font-size: 16px;
+        letter-spacing: .8px
+    }
+
+    .contact_title span {
+        display: block;
+        font-size: 14px;
+        font-weight: normal
+    }
+
+    .contact_title::before, .contact_title::after {
+        top: 20px;
+        width: calc((100% - 250px) / 2);
+        max-width: 100px
+    }
+
+    .contact_inner {
+        display: block
+    }
+
+    .contact_inner a {
+        font-size: 16px
+    }
+
+    .contact_inner span {
+        font-size: 24px
+    }
+
+    .contact_info .m_block {
+        display: block
+    }
+
+    .contact_info .m_block img {
+        width: 100%;
+        height: auto
+    }
+
+    .contact_link {
+        padding: 10px 0;
+        text-align: center
+    }
+
+    .contact_link a.fb, .contact_link a.line {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: middle
+    }
+
+    .contact_link a.fb {
+        margin-right: 10px;
+        background: #fff url(../images/icon_fb.png) 0 0 no-repeat;
+        background-size: 100%;
+        border-radius: 6px
+    }
+
+    .contact_link a.line {
+        background: #fff url(../images/icon_line.png) 0 0 no-repeat;
+        background-size: 100%;
+        border-radius: 6px
+    }
+
+    .footer {
+        padding-bottom: 10px
+    }
+
+    .footer .inner .web, .footer .inner.show.web, .footer .inner_mobile {
+        display: none
+    }
+
+    .footer .inner.show.mobile {
+        display: block
+    }
+
+    .footer .footer_info {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 0
+    }
+
+    .footer .copyright {
+        margin-left: 0;
+        text-align: left
+    }
+
+    .btn_top {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        opacity: .8;
+        z-index: 1000
+    }
+
+    .btn_top a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff;
+        background: #999;
+        border-radius: 20px
+    }
+}

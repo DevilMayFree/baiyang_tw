@@ -1,0 +1,464 @@
+input,select {font:normal 16px/140% Arial, Helvetica, "微軟正黑體";}
+
+table.calc{ border:none;}
+table.calc th{ border:none; padding: 7px;  color:#fff; background-color:#9c9c9c; }
+table.calc th a:hover {color:#eee;}
+table.calc td{ border:none; padding: 7px; background-color:#f8f8f8; text-align:left;}
+table.calc td select{ width: 100%; }
+table.calc td select.half{ width:49%; float:right; display:table-cell; box-sizing:border-box; overflow:hidden; }
+table.calc td select.half:first-child{float:left;}
+table.calc td select.half2{ width:60%;display: inline-block; box-sizing:border-box; overflow:hidden; margin:0 0 5px 0;}
+table.calc td select.small{ width:35%;display: inline-block; box-sizing:border-box; overflow:hidden; margin:0 0 5px 0;}
+table.calc td select.type01{ width:100px;}
+table.calc td input[type="text"].half{ width:49%;}
+table.calc td input[type="text"].small{ width:40%;}
+table.calc td input[type="text"].type01{ width:100px;}
+table.calc td input[type="button"].date{ width:30px; height:30px; display:inline-block; background:url(../images/icon_date.png) no-repeat; background-size:cover; vertical-align:middle; margin:0 5px;}
+table.calc td span.end{ font-size:16px; font-weight:bold; color:#777; margin-left:10px;}
+table.calc td a.fR {line-height: 32px;}
+table.calc td img.verImg{ display:inline-block; vertical-align:top;}
+
+.btn_file { display: inline-block; width: 100%; margin: 0 0 5px; }
+.btn_file input[type="file"] { display: none; }
+.btn_file span.btn { line-height:32px; display:inline-block; margin:0 5px 0 0; padding:0 10px; text-align:center; color:#fff; background: #0272bb; border-radius:3px;transition: all 0.3s;}
+.btn_file span.btn:hover {background: #065ba3;}
+.btn_file span.filename { display: inline-block; vertical-align: middle; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : calc(100% - 100px); }
+
+.main_block {min-height: 780px;}
+
+/*側邊選單*/
+.side_menu_02 { background: #fff; border-top: solid 1px #ececec;}
+.side_menu_02 li { background-size: 20px auto; background-position: calc(100% - 10px) 12px;}
+.side_menu_02 li a { color: #707070;}
+.side_menu li.open > ul.sub_menu {border-top:0;}
+/*側邊區塊*/
+.side_box {width: 250px; float: left; margin: 0 20px 0 0; color: #707070;}
+.side_box .side_menu {width:100%; float: none; margin-bottom: 10px;}
+/*內容 - 右邊區塊*/
+.side_box ~ .main_box { width: 730px; }
+.main_box .inner_box {border-top:0;}
+
+.btn a { width:120px; color:#fff; display: inline-block; line-height: 30px; text-align: center;}
+.btn .color01 {background: #d84744;}
+.btn .color02 {background: #00a0e9;}
+/*客服中心*/
+.steps_box { background: #fff; }
+.steps_title { margin-bottom: 0; padding: 5px 0; text-align: center; font-size: 18px; font-weight: bold; color: #00b5fa; border-top: solid 4px;}
+.bid_btn { margin-top: -35px; float: right;}
+.bid_btn a { width:120px; color:#fff; display: inline-block; line-height: 30px; text-align: center;}
+.bid_btn .color01 {background: #d84744;}
+.bid_btn .color02 {background: #00a0e9;}
+
+/*步驟*/
+.steps_list { margin-left: 30px; padding:10px 0 0 0; border-left: solid 1px #ececec;}
+/*.steps_list::after {content:""; display: block; width:1px; height:100%; background: #ececec; position: absolute; top:0; left:32px; }*/
+.steps_list li {padding-bottom: 20px; }
+.steps_list li::before{ content:""; display: inline-block; margin-left: -13px; vertical-align: middle; width:24px; height: 24px; border-radius: 50%; background-image: url(../images/service/img_steps.png); background-size: 15px auto; background-position: center; background-repeat: no-repeat; }
+.steps_list a {color:#707070;}
+.steps_list span { padding:0 5px; font-weight: bold; }
+.steps_list .step01 span { color: #0150a2; }
+.steps_list .step01::before { background-color: #0150a2; }
+.steps_list .step02 span { color: #056fdc; }
+.steps_list .step02::before { background-color: #056fdc; }
+.steps_list .step03 span { color: #048ae0; }
+.steps_list .step03::before { background-color: #048ae0; }
+.steps_list .step04 span { color: #1ca6ff; }
+.steps_list .step04::before { background-color: #1ca6ff; }
+.steps_list .step05 span { color: #00b7ee; }
+.steps_list .step05::before { background-color: #00b7ee; }
+
+/* 新手上路步驟 */
+.novice_steps { margin-left: 40px; position: relative;}
+.novice_steps_line { position: absolute; top:20px; left:0; bottom:20px; width:1px; background: #e2f4fd;}
+.novice_list li { margin-bottom: 20px; padding:0 0 0 50px; position: relative; }
+/*連結*/
+.novice_list .btn_box { position: absolute; top:20px; right:0; }
+.novice_list .btn_box a { display: inline-block; position: relative; min-width: 70px; padding:0 10px 0 40px; line-height: 30px; text-align: center; color:#fff; background: #ec6a00; border-radius: 2px; }
+.novice_list .btn_box a:hover {background: #f87912;}
+.novice_list .btn_box.short {width:190px;}
+.novice_list .btn_box.short a { float:left; min-width: 40px; margin: 0 0 15px 5px;}
+.novice_list .btn_box a span { display:inline-block; position: absolute; top:1px; left:1px; width:28px; height:28px; background-color: #fff; border-top-left-radius: 2px; border-bottom-left-radius: 2px;}
+.novice_list .btn_box .btn_icon01 {background-image: url(../images/e_counter/icon_novice_btn_icon_01.png); }
+.novice_list .btn_box .btn_icon02 {background-image: url(../images/e_counter/icon_novice_btn_icon_02.png); }
+.novice_list .btn_box .btn_icon03 {background-image: url(../images/e_counter/icon_novice_btn_icon_03.png); }
+.novice_list .btn_box .btn_icon04 {background-image: url(../images/e_counter/icon_novice_btn_icon_04.png); }
+.novice_list .btn_box .btn_icon05 {background-image: url(../images/e_counter/icon_novice_btn_icon_05.png); }
+.novice_list .btn_box .btn_icon06 {background-image: url(../images/e_counter/icon_novice_btn_icon_06.png); }
+.novice_list .btn_box .btn_icon07 {background-image: url(../images/e_counter/icon_novice_btn_icon_07.png); }
+.novice_list .btn_box .btn_icon08 {background-image: url(../images/e_counter/icon_novice_btn_icon_08.png); }
+.novice_list .btn_box a span {
+    background-size: auto 18px; background-position: center; background-repeat: no-repeat;}
+.novice_step_icon { width:60px; height:60px; position: absolute; left:-30px; top: calc(50% - 30px); }
+.novice_step_icon img {width:100%;}
+.icon_nextstep { position:absolute; bottom:-10px; left:-10px; width:20px; height:20px; }
+.icon_nextstep.next1 { background: url(../images/e_counter/icon_nextstep_01.png); background-size: 100% auto;}
+.icon_nextstep.next2 { background: url(../images/e_counter/icon_nextstep_02.png); background-size: 100% auto;}
+.icon_nextstep.next3 { background: url(../images/e_counter/icon_nextstep_03.png); background-size: 100% auto;}
+.icon_nextstep.next4 { background: url(../images/e_counter/icon_nextstep_04.png); background-size: 100% auto;}
+.novice_step_info { border-bottom:solid 1px #eee; }
+.novice_list li:nth-last-child(1) .novice_step_info {border-bottom: none;}
+.novice_step_info h4 { margin-bottom:5px; font-size: 21px; color: #0068b7;}
+.novice_step_info p { padding-right:200px; }
+.novice_step_info .smallT { margin:0; font-weight: bold; color:#bbb;}
+
+/*新手上路詳細*/
+/*步驟*/
+.steps_link {display: flex; justify-content: space-between; margin-bottom:20px;}
+.steps_link a { flex:0 1 90px; position: relative; padding:10px; box-sizing: border-box; text-align: center; color:#0068b7;}
+.steps_link a:nth-last-child(1) {margin:0;}
+.steps_link a.on { background: #f7f7f7;}
+.steps_link span {display: block;}
+.steps_link a .icon { margin:0 auto; width:70px; height:70px;}
+.steps_link a .icon img {width:100%;}
+.steps_link .smallT { margin-bottom: 5px; font-size: 13px; font-weight: bold; color:#bfbfbf; }
+.steps_link .icon_nextstep { flex:0 0 20px; align-self: center; position:static;  width:20px; height:20px; }
+.steps_link .icon_nextstep.next1 { background: url(../images/e_counter/icon_nextstep_05.png); background-size: 100% auto; }
+.steps_link .icon_nextstep.next2 { background: url(../images/e_counter/icon_nextstep_06.png); background-size: 100% auto; }
+.steps_link .icon_nextstep.next3 { background: url(../images/e_counter/icon_nextstep_07.png); background-size: 100% auto; }
+.steps_link .icon_nextstep.next4 { background: url(../images/e_counter/icon_nextstep_08.png); background-size: 100% auto; }
+/*步驟說明*/
+.steps_detail { margin-bottom: 20px; }
+.steps_detail_title { padding:10px 0; line-height: 1.5em; text-align: center; color:#fff; background: #3385c2; }
+.steps_detail_title h5 {margin: 5px 0;}
+.steps_detail_title .yellow { margin: 5px 0; color:#e8c16e;}
+.steps_detail_in { padding:20px; border: solid 1px #ddd; border-top:none;}
+.steps_detail_banner {padding:0;}
+.steps_detail_banner img {width:100%; }
+/*浮動img*/
+.steps_detail_in .detail_img { position: relative; padding:0 0 20px calc(50% - 35px);}
+.steps_detail_in .detail_img img { position: absolute; top:-90px; left:5%; max-width: calc(40% - 20px); }
+.steps_detail_in .notice {margin-bottom:0; font-size: 18px; font-weight: bold;}
+.steps_detail_in .note { font-weight: bold; color:#d81b0b;}
+/*APP清單*/
+.steps_detail_in .linkList { display: flex; justify-content: center; flex-wrap: wrap; margin:0 -10px; }
+.steps_detail_in .linkList .group {margin:0 10px;}
+.steps_detail_in .linkList .group:nth-last-child(1) {margin-bottom: 0;}
+.steps_detail_in .linkList .group.long {width:100%;}
+.steps_detail_in .linkList .group p { position: relative; line-height: 20px; text-align: center; background:url(../images/e_counter/bg_linkList_01.png) center repeat-x; }
+.steps_detail_in .linkList .group p:before , .steps_detail_in .linkList .group p:after {content: ""; display: block; position: absolute; top:50%;  width:1px; height:10px; background: #3385c2;}
+.steps_detail_in .linkList .group p:before {left:0;}
+.steps_detail_in .linkList .group p:after {right:0;}
+.steps_detail_in .linkList .group p span {padding:0 5px; font-size:18px; font-weight: bold; color:#3385c2; background: #fff;}
+.steps_detail_in .linkList_item { margin-right:-15px; text-align: center;}
+.steps_detail_in .linkList_item li { display: inline-block; height:160px; vertical-align: top; margin:0 15px 10px 15px; text-align: center; }
+.steps_detail_in .linkList_item li:nth-child(1) {margin-left:0;}
+.steps_detail_in .linkList_item img {width:100px; margin-bottom: 10px; border-radius: 5px;}
+.steps_detail_in .linkList_item a { display: block; width:100%; font-size: 18px; font-weight: bold; color:#686868; }
+
+/*聯絡資訊*/
+.side_content_box { padding: 10px 10px 35px; position: relative; background: linear-gradient(#ffffff,#e5e5e5); border: solid 2px #d2d2d2; height:370px;}
+.side_content_box::after {content:url(../images/service/img_side_content.png); position: absolute; bottom: -18px; right:0;}
+/*查詢線上等候人數*/
+.CheckNumber {
+    margin-top: 10px;
+    display: inline-block;
+    width: 190px;
+    padding:6px;
+    color: #0068b7;
+    background: hsla(0,0%,100%,.7);
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+    .CheckNumber:hover,
+    .CheckNumber:active {
+        background-color: #0068b7;
+        border-color: #fff;
+        color: #fff;
+        transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+    }
+    .CheckNumber::before {
+        content: "";
+        position: absolute;
+        bottom: 24px;
+        left: 18%;
+        width: 0;
+        height: 0;
+        border-width: 0 7px 12px;
+        border-style: solid;
+        border-color: transparent transparent #0068b7;
+        transform: rotate(90deg);
+        display: block;
+    }
+    .CheckNumber:hover::before {
+        content: "";
+        position: absolute;
+        bottom: 24px;
+        left: 18%;
+        width: 0;
+        height: 0;
+        border-width: 0 7px 12px;
+        border-style: solid;
+        border-color: transparent transparent #fff;
+        transform: rotate(90deg);
+        display: block;
+    }
+    .CheckNumber::after {
+        content: "查詢線上等候人數";
+        padding-left:1.7em;
+    }
+
+.side_content_info { margin-bottom: 20px; padding: 10px; position: relative; color: #fff; background: #bb9157;}
+.side_content_info::after {content: ""; width:10px; height: 10px; position: absolute; bottom: -9px; left: 50%; transform: rotate(45deg) translateX(-50%); background: #bb9157;}
+.side_content_info .info_title { margin-bottom: 10px; padding-bottom: 5px; text-align: center; border-bottom: solid 1px #e9c781;}
+.side_content_info .info_p { margin-bottom: 0; padding-left: 15px; font-size: 14px; line-height: 1.3em; font-weight: bold;}
+.side_content_info 
+.side_content_box ul li, .border_top {border-top: solid 1px #b5b5b5;}
+.side_content_box ul li:nth-child(1){border:0;}
+.side_content_box ul a{ padding-left:30px; font-size: 14px; line-height: 36px; font-weight: bold; color: #1e4265;}
+.side_content_box .content_01 {
+    background: url(../images/service/img_content_01.png) left center no-repeat;
+    background-size: 20px auto;
+    border-top: solid 1px #b5b5b5;
+}
+.side_content_box .content_02 {background: url(../images/service/img_content_02.png) left center no-repeat; background-size: 20px auto;}
+.side_content_box .content_03 {background: url(../images/service/img_content_03.png) left center no-repeat; background-size: 20px auto;}
+.side_content_box .content_04 {background: url(../images/service/img_content_04.png) left center no-repeat; background-size: 20px auto;}
+.side_content_box .border_top {border-top: solid 1px #b5b5b5;}
+
+/*申辦方式*/
+.box_bid {
+    border: solid 1px #eee;
+}
+.box_bid_title { margin-bottom: 20px; padding: 20px; font-size:18px; font-weight: bold; border-top: solid 1px #eee;}
+.box_bid_title span::after{ content: ""; margin-left: 5px; display: inline-block; border-style: solid; border-width: 0 0 1em 1em; border-color: transparent transparent #ccc transparent;}
+.box_bid .step01{color: #de5401;}
+.box_bid .step02{color: #00a0e9;}
+.box_bid .step03{color: #a07840;}
+.box_bid_step { max-width: 100%; margin-bottom: 20px; display: flex; justify-content: center; box-sizing: border-box; }
+.box_bid_step > div { text-align: center; font-weight: bold;}
+.box_bid_step img { width: 100%; margin:0 0 10px 0;}
+.box_bid_step p { margin-bottom: 0px; }
+.box_bid_step .btn { padding: 2px 5px; color: #535353; border: solid 1px; border-radius:3px;}
+
+/*常見問題搜尋*/
+.search_box_01 {margin-bottom: 10px; padding: 15px; border: solid 1px #e4bc67; }
+.search_box_01 > div {display: flex; justify-content: space-between;}
+.search_box_01 .input_part1 { width: calc(50% - 10px); margin-bottom: 10px;}
+.search_box_01 .input_part2 {width:50%; }
+.search_box_01 .input_part2 select {width:50%; float: left;}
+.search_box_01 .keyword {margin-bottom:0; line-height: 30px;}
+.search_box_01 .keyword a { color:#00a0e9; text-decoration: none;}
+
+/*QA*/
+.question ul li .quest,.question ul li .quest.close { padding:15px 15px 15px 50px; line-height: 1.5em; color: #313131; background: url(../images/icon_qa_q.png) 15px 12px no-repeat;}
+.question ul li .answer { padding: 15px 0 15px 50px; line-height: 1.5em; color:#313131; background-color: #eee; background-image: url(../images/icon_qa_a.png); background-position: 15px 13px; background-repeat: no-repeat;}
+.question ul li .answer img {display: block; max-width: 100%;}
+
+/*Q&A*/
+.question.questLink{ margin: 0 0 20px; overflow: hidden;}
+.question.questLink .subT{ margin:20px 0 20px;}
+.question.questLink ul{}
+.question.questLink ul li{ min-height:40px; line-height:40px; border-bottom:1px solid #f2f2f2;}
+.question.questLink ul li .subT { margin:20px 0 0;}
+.question.questLink ul li .quest { font:bold 16px/40px Arial, Helvetica, "微軟正黑體";color:#065ba3; padding:0 30px 0 0; cursor:pointer;}
+.question.questLink ul li .quest a {color:#636363;}
+.question.questLink ul li .quest a:hover {color:#afa16e;}
+.question.questLink ul li .quest ,
+.question.questLink ul li .quest.close { padding:10px 15px 10px 35px; line-height: 1.5em; color: #313131; background: url(../images/icon_qa_q.png) 0px 8px no-repeat;}
+
+/*公告*/
+.announce_box { margin-bottom: 30px; padding:20px; border-top:solid 4px #0081cc; box-shadow:0 1px 10px 0 rgba(0,0,0,0.2); 
+background: -webkit-linear-gradient(#fff 70%,#fef5e9 100%);
+background: -o-linear-gradient(#fff 70%,#fef5e9 100%);
+background: -moz-linear-gradient(#fff 70%,#fef5e9 100%);
+background: linear-gradient(#fff 70%,#fef5e9 100%);}
+.announce_box p { line-height: 2em; }
+/*公告按鈕*/
+.btn_inline { margin:0 2px; padding:0 5px; display: inline-block; line-height: 26px; text-decoration: none; color:#fff; background: #0272bb; border-radius: 2px; transition: all 0.3s;}
+.btn_inline:hover {background: #065ba3;}
+
+
+/* E櫃台 -------------------------------------------*/
+/*業務介紹*/
+.busness_section {display: flex; flex-wrap: wrap; }
+.busness_item { width:33%; margin: 40px 0 20px; padding: 50px 20px 10px; position: relative; box-sizing: border-box; border:solid 1px #ededed; }
+.busness_item.long {width:100%;}
+.busness_icon {width:63px; height:63px; display: block; position: absolute; top:-32px; left:calc(50% - 32px); background-color: #e4bc67; background-size: auto; border-radius: 50%;}
+.busness_title { width:100%; margin-bottom:20px; text-align: center; vertical-align: middle; font-size: 18px; font-weight: bold; color:#e4bc67;}
+.busness_title p{ display: inline-block; margin-bottom: 0;}
+.busness_title:before {  content: ""; height: 100%; display: inline-block; vertical-align: middle;}
+.busness_list {padding-left:15px;}
+.busness_list > li{ margin-bottom: 10px; text-indent:-15px; line-height: 24px;}
+.busness_list li a { color: #636363; }
+.busness_list li a:hover {color: #bb9157;}
+.busness_list ol { padding-top: 10px; margin-left: 15px;}
+.busness_list ol a { color: #bb9157; }
+.busness_list ol a:hover { color: #e4bc67; }
+.busness_list .list_num { padding-right: 5px; font-size: 14px; color: #e4bc67; }
+
+/*steps_img*/
+.pic_steps{ width:100%; max-width: 360px; margin: 0 auto 20px auto;}
+.pic_steps img{ max-width:100%;}
+
+/*驗證碼*/
+.img_verify { float: left; width:120px; height:32px; margin-right: 10px;}
+.img_verify + input { width:180px;}
+
+/*服務項目*/
+.service_link {height:auto; border:none;}
+.service_link ul { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.service_link li { flex: 0 0 70px; position: relative; text-align: center; color:#ccc; }
+.service_link li a {position: absolute; top:0; bottom:0; left:0; right:0;}
+.service_link li p {margin:0;}
+.service_link li.on { font-weight: bold; }
+.service_link .on .link_color_01 {color:#ef6b18;}
+.service_link .on .link_color_02 {color:#056fdc;}
+.service_link .on .link_color_03 {color:#00b7ee;}
+.service_link .on .link_color_04 {color:#02c4c4;}
+.service_link .on .link_color_05 {color:#00b7ee;}
+.service_link .on .link_color_06 {color:#5fba94;}
+.service_link img { width:100%; max-width: 60px; margin: 0 auto 10px; }
+
+/*服務項目_細項*/
+.service_detail { margin:0 0 10px; }
+.service_detail > li { position: relative; min-height: 150px; border-top:solid 1px #ddd; }
+.service_detail > li > a { position: absolute; top:0; bottom:0; left:0; right:0; }
+.service_detail .img { position:absolute; width:150px; }
+.service_detail .img img {width:100%;}
+.service_detail .Lbox { padding: 30px 30px 30px 210px; }
+.service_detail .Lbox .img {top:30px; left:30px;}
+.service_detail .Rbox { padding: 30px 210px 30px 30px; }
+.service_detail .Rbox .img {top:30px; right:30px; left:auto;}
+.service_detail .box_line { margin:20px 0; height:4px;}
+.service_detail .box_line span { display: inline-block; width:36px; height:4px; vertical-align: top; background: #ccc;}
+.box_line_color01 .box_line span {  background: #ef6b18; }
+.box_line_color02 .box_line span {  background: #056fdc; }
+.box_line_color03 .box_line span {  background: #00b7ee; }
+.box_line_color04 .box_line span {  background: #02c4c4; }
+.box_line_color05 .box_line span {  background: #00b7ee; }
+.box_line_color06 .box_line span {  background: #5fba94; }
+.service_detail .info p {margin-bottom: 0;}
+.service_detail ul.num { margin: 0 0 0 20px; font-size: 16px; }
+.service_detail ul.num li {padding:0;}
+
+
+
+@media screen and (max-width: 1000px){
+    .side_box + .main_box { width: calc(100% - 270px);}
+}
+/*頁面980以內時*/
+@media screen and (max-width: 980px){
+    
+    /*table*/
+    .tb_Box{ /*margin-bottom:28px;*/ margin-bottom:10px;}
+    table.hoverType3 td{ padding:5px;}
+    table th ,table td {padding:10px 5px;}
+    table.calc, table.calc tbody, table.calc th, table.calc td, table.calc tr ,table.td_block th ,table.td_block td { width:100%;  display: block; clear:both; box-sizing:border-box;}
+    table.calc td { padding:10px 0;}
+    table.calc td input[type="text"].half{ width:100%; margin-bottom: 5px;}
+    table.calc td input[type="text"].type01{ width:100%; margin-bottom:5px;}
+    table.calc td input[type="text"].small{ width:100%;}
+    table.calc td input[type="button"].date{  /*display:block;margin: 5px 4px; */ display:none;}
+    table.calc td select.small{ width:100%;}
+    table.calc td select.type01{ width:100%; margin-bottom: 5px;}
+    table.calc td span.end{ width:100%; display:inline-block; text-align:center; margin:5px 0 0 0;}
+    table.calc td img.verImg{ display:inherit; vertical-align:inherit; text-align:center; margin:5px auto 0;}
+    table.calc td a.fR {float: none;}
+    
+    .main_block{ width: 100%; position: relative; padding: 10px 0 0 260px; box-sizing: border-box; }
+    .main_block.single{ padding: 0;}
+    .side_box{  position: absolute; top: 10px; left: 0;}
+    .side_menu_02 {position: static;}
+    .side_box ~ .main_box{ width: 100%;}
+    
+    /*業務介紹*/
+    .busness_item { width:50%;}
+    
+    /*新手上路詳細*/
+    /*步驟*/
+    .steps_link a {flex: 0 1 80px; padding:5px;}
+    .steps_link a h6 {font-size: 14px;}
+    .steps_link a .icon {width:60px; height:60px;}
+    /*浮動img*/
+    .steps_detail_in .detail_img {padding:0; text-align: center;}
+    .steps_detail_in .detail_img img {position: static; max-width: 60%; margin:0 auto 10px; }
+    /*APP清單*/
+    .steps_detail_in .linkList .group {margin:0 10px 20px 10px;}
+    .steps_detail_in .linkList .group.long {width:auto;}
+    .steps_detail_in .linkList_item {margin-right:-10px;}
+    .steps_detail_in .linkList_item li {margin: 0 10px 10px 0;}
+}
+/*頁面767以內時*/
+@media screen and (max-width: 767px){    
+    input[type="text"],select {height: 36px; line-height: 36px;}
+    
+    
+    
+    .btn a { width:100%; display: block; line-height: 40px;}
+    /*側邊選單*/
+    .side_box{ display: none;}
+    .main_block {min-height: auto; padding:0;}
+    
+    /*申辦方式*/
+    .bid_btn {float: none; margin:0;}
+    .bid_btn a {display: block; width:100%; margin-bottom:10px; line-height: 40px; }
+    .box_bid_title { margin:0; padding: 20px 10px;}
+    .box_bid_step p { padding: 0 5px;}
+    
+    /*常見問題搜尋*/
+    .search_box_01 > div {display: block; clear: both;}
+    .search_box_01 .input_part2 {margin-bottom: 10px;}
+    .search_box_01 .input_part1,.search_box_01 .input_part2 {width:100%; overflow: auto;}
+    .search_box_01 .keyword {margin-bottom: 10px; text-align: center;}
+    
+    /*業務介紹*/
+    .busness_item { width:100%; margin:20px 0; padding: 40px 20px 20px 20px;}
+    .busness_title { height:auto; margin-bottom:10px;}
+    .busness_title p {margin-bottom:0;}
+    .busness_icon {width:50px; height:50px; top:-25px; left:calc(50% - 25px); background-size: 100%;}
+    
+    /* 新手上路步驟 */
+    .novice_steps {margin:0;}
+    .novice_step_info {border:none;}
+    .novice_step_icon { top:-30px; left:0; width:100%; }
+    .novice_step_icon img { width:auto; height:100%; margin:0 auto;}
+    .novice_list li { margin: 80px 0 20px 0; padding:40px 0 10px 0; text-align: center; border: solid 2px #eee;}
+    .novice_list li:nth-child(1) {margin-top: 50px;}
+    .novice_list p {padding:0;}
+    .novice_steps_line {display:none;}
+    .novice_list .btn_box {position: static;}
+    .novice_step_icon a {}
+    .novice_list .btn_box a {margin-bottom:10px;}
+    .novice_list .btn_box.short { overflow: auto; margin:0 auto;}
+    .novice_list .btn_box.short .m_hide {display: none;}
+    .icon_nextstep { bottom:-25px; left:calc(50% - 10px); }
+    
+    
+    /*服務項目_細項*/
+    .service_detail {}
+    .service_detail li { position: relative; min-height: auto; text-align: center; }
+    .service_detail .img { position:static; width:120px; margin: 0 auto 20px;}
+    .service_detail .Lbox,
+    .service_detail .Rbox{ padding: 20px 0; }
+    .service_detail .box_line { margin:15px 0; text-align: center;}
+    .service_detail .info h2 { text-align: center; font-size: 21px; }
+    
+    
+    /*驗證碼*/
+    .img_verify + input { width: calc(100% - 130px);}
+    
+    /*按鈕*/
+    .btnArea a{ display:block; width:auto; margin-bottom: 10px;}
+    
+    /*公告*/
+    .announce_box { padding:20px 15px 10px;}
+    .announce_box p { line-height: 1.5em; }
+    
+}
+@media screen and (max-width: 480px){
+    /*新手上路詳細*/
+    /*步驟*/
+    .steps_link {flex-direction: column;}
+    .steps_link a {position: relative; padding:10px 70px 10px 70px; border:solid 1px #f7f7f7;}
+    .steps_link a h6 {font-size: 15px;}
+    .steps_link a .icon {position: absolute; top:10px; left:10px; }
+    .steps_link span {display: inline;}
+    .steps_link .icon_nextstep { margin: 5px 0; }
+    .steps_link .icon_nextstep.next1 { background: url(../images/e_counter/icon_nextstep_01.png); background-size: 100% auto; }
+    .steps_link .icon_nextstep.next2 { background: url(../images/e_counter/icon_nextstep_02.png); background-size: 100% auto; }
+    .steps_link .icon_nextstep.next3 { background: url(../images/e_counter/icon_nextstep_03.png); background-size: 100% auto; }
+    .steps_link .icon_nextstep.next4 { background: url(../images/e_counter/icon_nextstep_04.png); background-size: 100% auto; }
+}
